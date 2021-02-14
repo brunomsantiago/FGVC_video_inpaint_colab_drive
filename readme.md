@@ -13,7 +13,7 @@ However, their tool is command-line based. I struggled a little to use it with m
 
 So I decided to adapt the original [google colab notebook](https://colab.research.google.com/drive/1pb6FjWdwq_q445rG2NP0dubw7LKNUkqc?usp=sharing) for my personal use.
 
-I think it might me useful for others.
+I think it might me useful for others. Check it in [nbviewer](https://nbviewer.jupyter.org/github/brunomsantiago/FGVC_video_inpaint_colab_drive/blob/main/FGVC_video_completion.ipynb) or in [google colab](https://colab.research.google.com/github/brunomsantiago/FGVC_video_inpaint_colab_drive/blob/main/FGVC_video_completion.ipynb)
 
 ## What I changed
  - I wrote a function to view data data (folders with image files) as animated gif. It allows to easy see the results in google colab
@@ -25,7 +25,7 @@ I think it might me useful for others.
  - I also added a little bit of code to measure the execution time of video_completion_seamless() function
 
 # How to use
- 1. Open the ipynb file in google colab
+ 1. Open FGVC_video_completion.ipynb in [google colab](https://colab.research.google.com/github/brunomsantiago/FGVC_video_inpaint_colab_drive/blob/main/FGVC_video_completion.ipynb)
  2. Mount your google drive
  4. (just once) Download the tool and model to your google drive.
     - You can use the commented bash code block, located in cell 2.1.
