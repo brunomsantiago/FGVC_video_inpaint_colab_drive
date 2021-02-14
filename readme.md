@@ -28,7 +28,7 @@ I think it might me useful for others. Check it in [nbviewer](https://nbviewer.j
  1. Open FGVC_video_completion.ipynb in [google colab](https://colab.research.google.com/github/brunomsantiago/FGVC_video_inpaint_colab_drive/blob/main/FGVC_video_completion.ipynb)
  2. Mount your google drive
  4. (just once) Download the tool and model to your google drive.
-    - You can use the commented bash code block, located in cell 2.1.
+    - You can use the commented bash code block, located in cell 2.1. Run it once and comment it again.
     - As february 2021, there is no need to install any package on google colab (pytorch, etc)
  5. Activate GPU on colab
  6. Configure the input data at cell 3.3.
