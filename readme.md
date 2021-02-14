@@ -17,7 +17,7 @@ I think it might me useful for others.
 
 ## What I changed
  - I wrote a function to view data data (folders with image files) as animated gif. It allows to easy see the results in google colab
- - The [FGVC tool]((https://github.com/vt-vl-lab/FGVC) and the deep learning models are saved to google drive, which is mounted at the beginning of the notebook.
+ - The [FGVC tool](https://github.com/vt-vl-lab/FGVC) and the deep learning models are saved to google drive, which is mounted at the beginning of the notebook.
  - Both input data and results are also saved to google drive.
  - The FGVC tool now runs in Python instead of bash
    - To do that I change the current working directory in Python, import the video_completion_seamless() function from video_completion.py
