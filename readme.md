@@ -19,3 +19,18 @@ I think it might me useful for others.
  - I wrote a function to view data data (folders with image files) as animated gif. It allows to easy see the results in google colab
  - The [FGVC tool]((https://github.com/vt-vl-lab/FGVC) and the deep learning models are saved to google drive, which is mounted at the beginning of the notebook.
  - Both input data and results are also saved to google drive.
+ - The FGVC tool now runs in Python instead of bash
+   - To do that I change the current working directory in Python, import the video_completion_seamless() function from video_completion.py
+   - The I simulate the argparse result with a custom dict and call the function
+ - I also added a little bit of code to measure the execution time of video_completion_seamless()
+
+# How to use
+ 1. Open the ipynb file in google colab
+ 2. Mount your google drive
+ 4. (just once) Download the tool and model to your google drive.
+  - You can use the commented bash code block, located in cell 2.1.
+ 5. Activate GPU on colab
+ 6. Configure the input data at cell 3.3.
+  - By default it uses the Tennis demo from FGVC
+ 7. Run all cells
+ 8. See the results at cell 3.6
