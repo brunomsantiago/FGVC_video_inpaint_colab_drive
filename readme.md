@@ -2,7 +2,7 @@
 
 ## Introduction
 
-As the time of this writing (February, 2021) [FGVC]((https://github.com/vt-vl-lab/FGVC) is one of the best video inpainting projects out there.
+As the time of this writing (February, 2021) [FGVC](https://github.com/vt-vl-lab/FGVC) is one of the best video inpainting projects out there.
 
 The authors did a great work and made it as easy a possible for other to use their video inpaiting tool. They even made a [google colab notebook](https://colab.research.google.com/drive/1pb6FjWdwq_q445rG2NP0dubw7LKNUkqc?usp=sharing).
 
