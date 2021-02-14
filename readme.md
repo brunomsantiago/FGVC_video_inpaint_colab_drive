@@ -16,7 +16,7 @@ So I decided to adapt the original [google colab notebook](https://colab.researc
 I think it might me useful for others. Check it in [nbviewer](https://nbviewer.jupyter.org/github/brunomsantiago/FGVC_video_inpaint_colab_drive/blob/main/FGVC_video_completion.ipynb) or in [google colab](https://colab.research.google.com/github/brunomsantiago/FGVC_video_inpaint_colab_drive/blob/main/FGVC_video_completion.ipynb).
 
 ## What I changed
- - I wrote a function to view data data (folders with image files) as animated gif. It allows to easy see the results in google colab.
+ - I wrote a function to view data data (folders with image files) as animated gif. It allows to easily see the results in google colab.
  - The [FGVC tool](https://github.com/vt-vl-lab/FGVC) and the deep learning models are saved to google drive, which is mounted at the beginning of the notebook.
  - Both input data and results are also saved to google drive.
  - The FGVC tool now runs in Python instead of bash.
