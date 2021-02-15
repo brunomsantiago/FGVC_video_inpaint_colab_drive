@@ -11,7 +11,7 @@ However, their tool is command-line based. I struggled a little to use it with m
  - It was hard for me to upload my own data and adjust the tool parameters using the %%bash magic command.
  - It was hard for me to se the results after running the video completion.
 
-So I decided to adapt the original [google colab notebook](https://colab.research.google.com/drive/1pb6FjWdwq_q445rG2NP0dubw7LKNUkqc?usp=sharing) for my personal use.
+So I decided to adapt the [original google colab notebook](https://colab.research.google.com/drive/1pb6FjWdwq_q445rG2NP0dubw7LKNUkqc?usp=sharing) for my personal use.
 
 I think it might me useful for others. Check it in [nbviewer](https://nbviewer.jupyter.org/github/brunomsantiago/FGVC_video_inpaint_colab_drive/blob/main/FGVC_video_completion.ipynb) or in [google colab](https://colab.research.google.com/github/brunomsantiago/FGVC_video_inpaint_colab_drive/blob/main/FGVC_video_completion.ipynb).
 
